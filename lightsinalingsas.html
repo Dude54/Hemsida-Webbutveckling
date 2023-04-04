@@ -31,8 +31,8 @@
   <a href="omcafet.html" onclick="w3_close()" class="w3-bar-item w3-button">Om Cafét</a>
   <a href="sortiment.html" onclick="w3_close()" class="w3-bar-item w3-button">Sortiment</a>
   <a href="lightsinalingsas.html" onclick="w3_close()" class="w3-bar-item w3-button">Lights in Alingsås</a>
-  <a href="" onclick="w3_close()" class="w3-bar-item w3-button">Detta är vi</a>
-  <a href="" target="blank" class="w3-bar-item w3-button">Kontakt</a>
+  <a href="personal.html" onclick="w3_close()" class="w3-bar-item w3-button">Detta är vi</a>
+  <a href="kontakt.html" class="w3-bar-item w3-button">Kontakt</a>
 </nav>
 
 
@@ -51,10 +51,10 @@
   
  
   
-  <div class="w3-row-padding w3-padding-16 w3-center ">
-    <div class=" w3-quarter w3-padding-16 container " >
+  <div class="w3-row-padding w3-padding-32 w3-center ">
+    <div class=" w3-quarter w3-padding-16 container" style="padding-right: 30px;" >
 
-      <img src="http://www.ekstedtsbageri.se/files/Lights-1.jpg.jpg" alt="bullar" style="width:100%">
+      <img src="https://cdn.discordapp.com/attachments/778882182315900940/982261485814300702/unknown.png" alt="bullar" style="width:100%">
       
     </div>
 
@@ -81,9 +81,9 @@
       <a href="omcafet.html" class="w3-bar-item w3-button w3-hover-gray">3</a>
       <a href="sortiment.html" class="w3-bar-item w3-button w3-hover-gray">4</a>
       <a href="lightsinalingsas.html" class="w3-bar-item w3-gray w3-button w3-hover-gray">5</a>
-      <a href="" class="w3-bar-item w3-button w3-hover-gray">6</a>
-      <a href="" class="w3-bar-item w3-button w3-hover-gray">7</a>
-      <a href="lightsinalingsas.html" class="w3-bar-item w3-button w3-hover-gray">»</a>
+      <a href="personal.html" class="w3-bar-item w3-button w3-hover-gray">6</a>
+      <a href="kontakt.html" class="w3-bar-item w3-button w3-hover-gray">7</a>
+      <a href="personal.html" class="w3-bar-item w3-button w3-hover-gray">»</a>
     </div>
   </div>
  
@@ -105,7 +105,7 @@
     </div>
     <div class="w3-second ">
     
-      <img src="http://www.ekstedtsbageri.se/files/logo.png" style="width:15%">
+      <img src="https://cdn.discordapp.com/attachments/783744568058708018/973899899936600085/unknown.png" style="width:15%">
       
         <p>Följ oss gärna på Sociala medier</p><a href="https://www.facebook.com/EkstedtsBageriCafe" target="_blank" class="fa fa-facebook"></a> <a href="http://www.instagram.com/ekstedtsbagericafe" target="_blank" class="fa fa-instagram"></a>
       
@@ -130,7 +130,35 @@
 
 </div>
 
+<script>
 
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 </body>
 </html>
